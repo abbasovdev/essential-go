@@ -1,0 +1,3 @@
+sum: 15
+sum of slice: 60
+joined: Go is fun

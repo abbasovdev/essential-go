@@ -1,0 +1,5 @@
+Languages: [Go Python Java]
+Scores: [85 92 78 95]
+Number of languages: 3
+First language: Go
+Last score: 95

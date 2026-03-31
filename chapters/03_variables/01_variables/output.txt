@@ -1,0 +1,1 @@
+The development of Go began in 2007 by Robert Griesemer, Ken Thompson and Rob Pike.

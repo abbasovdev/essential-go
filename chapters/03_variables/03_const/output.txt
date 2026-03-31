@@ -1,0 +1,1 @@
+Go was created in 2009 by Robert Griesemer. Max score: 100

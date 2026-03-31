@@ -1,0 +1,3 @@
+Go was created in the 21st century
+Generics supported
+Gopher has 6 letters (short word)

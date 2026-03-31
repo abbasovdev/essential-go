@@ -1,0 +1,2 @@
+converted: 42
+error: strconv.Atoi: parsing "abc": invalid syntax

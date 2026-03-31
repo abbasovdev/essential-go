@@ -1,0 +1,3 @@
+Value: Go
+Dereferenced: Go
+Updated value: Golang

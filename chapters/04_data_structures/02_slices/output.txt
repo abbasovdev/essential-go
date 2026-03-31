@@ -1,0 +1,4 @@
+Fruits: [apple banana cherry date]
+Total: 4
+Subset [1:3]: [banana cherry]
+First fruit: apple

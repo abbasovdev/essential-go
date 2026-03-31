@@ -1,0 +1,4 @@
+Scores: map[Alice:90 Charlie:92]
+Alice's score: 90
+Alice exists: true
+Total entries: 2
