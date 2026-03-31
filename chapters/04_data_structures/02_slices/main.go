@@ -6,11 +6,11 @@ func main() {
 
 	fruits := []string{"apple", "banana", "cherry"}
 
-	fruits = (fruits, "date")
+	fruits = append(fruits, "date")
 
-	 := len(fruits)
+	total := len(fruits)
 
-	subset := fruits[1:]
+	subset := fruits[1:3]
 
 	fmt.Printf("Fruits: %v\n", fruits)
 	fmt.Printf("Total: %d\n", total)

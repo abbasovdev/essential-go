@@ -7,13 +7,13 @@ import (
 
 func main() {
 
-	if value, err := strconv.Atoi("42");  != nil {
+	if value, err := strconv.Atoi("42"); err != nil {
 		fmt.Println("error:", err)
 	} else {
-		fmt.Println("converted:", )
+		fmt.Println("converted:", value)
 	}
 
-	if ,  := strconv.Atoi("abc"); err != nil {
+	if _, err := strconv.Atoi("abc"); err != nil {
 		fmt.Println("error:", err)
 	}
 }

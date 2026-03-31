@@ -7,11 +7,11 @@ func main() {
 	var languages [3]string
 	languages[0] = "Go"
 	languages[1] = "Python"
-	languages[] = "Java"
+	languages[2] = "Java"
 
-	scores := [4]{85, 92, 78, 95}
+	scores := [4]int{85, 92, 78, 95}
 
-	 := len(languages)
+	count := len(languages)
 
 	fmt.Printf("Languages: %v\n", languages)
 	fmt.Printf("Scores: %v\n", scores)

@@ -6,12 +6,12 @@ func main() {
 
 	language := "Go"
 
-	ptr = language
+	ptr := &language
 
 	fmt.Printf("Value: %s\n", language)
-	fmt.Printf("Dereferenced: %s\n", ptr)
+	fmt.Printf("Dereferenced: %s\n", *ptr)
 
-	ptr = "Golang"
+	*ptr = "Golang"
 
 	fmt.Printf("Updated value: %s\n", language)
 }

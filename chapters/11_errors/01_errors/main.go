@@ -7,12 +7,12 @@ import (
 
 func main() {
 
-	err := errors.("something went wrong")
+	err := errors.New("something went wrong")
 
 	fmt.Println(err)
 
 	name := "config.yaml"
-	err = fmt.Errorf("file not found: %s", )
+	err = fmt.Errorf("file not found: %s", name)
 
 	fmt.Println(err)
 }

@@ -10,9 +10,9 @@ func sayHello() {
 }
 
 func main() {
-	 sayHello()
+	go sayHello()
 
-	time.(100 * time.Millisecond)
+	time.Sleep(100 * time.Millisecond)
 
 	fmt.Println("main done")
 }

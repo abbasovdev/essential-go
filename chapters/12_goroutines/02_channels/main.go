@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	ch := (chan string)
+	ch := make(chan string)
 
 	go func() {
-		ch  "hello from channel"
+		ch <- "hello from channel"
 	}()
 
-	msg :=  ch
+	msg := <-ch
 	fmt.Println(msg)
 }

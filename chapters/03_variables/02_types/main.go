@@ -4,15 +4,15 @@ import "fmt"
 
 func main() {
 
-	var language  = "Go"
+	var language string = "Go"
 
-	var version  = 1.23
+	var version float64 = 1.23
 
-	var year int =
+	var year int = 2009
 
-	var isOpenSource  = true
+	var isOpenSource bool = true
 
-	versionAsInt := (version)
+	versionAsInt := int(version)
 
 	fmt.Printf("%s version %.2f was released in %d. Open source: %t. Major version: %d\n", language, version, year, isOpenSource, versionAsInt)
 }

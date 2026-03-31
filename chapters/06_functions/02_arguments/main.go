@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func greet(name ) {
+func greet(name string) {
 	fmt.Printf("Hello, %s!\n", name)
 }
 
-func add(a , b int)  {
+func add(a int, b int) int {
 	return a + b
 }
 

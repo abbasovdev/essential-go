@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func describe(i ) {
-	switch v := i.() {
+func describe(i interface{}) {
+	switch v := i.(type) {
 	case string:
 		fmt.Println("string:", v)
-	case :
+	case int:
 		fmt.Println("int:", v)
 	default:
 		fmt.Println("unknown")
@@ -20,6 +20,6 @@ func main() {
 	describe(3.14)
 
 	var val interface{} = "Go"
-	s,  := val.(string)
+	s, ok := val.(string)
 	fmt.Println(s, ok)
 }

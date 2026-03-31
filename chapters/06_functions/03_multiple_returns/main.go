@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func swap(a, b string) (, ) {
-	return ,
+func swap(a, b string) (string, string) {
+	return b, a
 }
 
 func minMax(numbers []int) (int, int) {
@@ -17,13 +17,13 @@ func minMax(numbers []int) (int, int) {
 			max = n
 		}
 	}
-	return ,
+	return min, max
 }
 
 func main() {
 	first, second := swap("hello", "world")
 	fmt.Printf("first: %s, second: %s\n", first, second)
 
-	,  := minMax([]int{3, 1, 4, 1, 5, 9})
+	low, high := minMax([]int{3, 1, 4, 1, 5, 9})
 	fmt.Printf("min: %d, max: %d\n", low, high)
 }

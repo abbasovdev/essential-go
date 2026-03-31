@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 type Student struct {
-	 string
+	Name   string
 	grade  int
 	school string
 }
 
-func (s Student) () string {
+func (s Student) Info() string {
 	return fmt.Sprintf("%s (Grade: %d)", s.Name, s.grade)
 }
 
@@ -22,6 +22,6 @@ func main() {
 
 	fmt.Println(s.Info())
 
-	fmt.Printf("Exported field: %s\n", s.)
+	fmt.Printf("Exported field: %s\n", s.Name)
 	fmt.Printf("Unexported field: %s\n", s.school)
 }

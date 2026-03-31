@@ -6,14 +6,14 @@ import (
 )
 
 func main() {
-	var wg sync.
+	var wg sync.WaitGroup
 
-	wg.(1)
+	wg.Add(1)
 	go func() {
-		defer wg.()
+		defer wg.Done()
 		fmt.Println("goroutine done")
 	}()
 
-	wg.()
+	wg.Wait()
 	fmt.Println("all done")
 }

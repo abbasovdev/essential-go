@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
- sayHello() {
+func sayHello() {
 	fmt.Println("Hello from a function!")
 }
 
-func getYear()  {
-	 2007
+func getYear() int {
+	return 2007
 }
 
 func main() {
